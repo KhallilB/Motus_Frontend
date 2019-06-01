@@ -5,7 +5,23 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <h1>Navbar</h1>
+        <div class="Navbar">
+          <div class="Navbar-link Navbar-logo">
+            <h1>Motus</h1>
+          </div>
+          {/* <div class="Navbar-link">
+            <h3>Reminders</h3>
+          </div>
+          <div class="Navbar-link">
+            <h3>Calender</h3>
+          </div> */}
+          <div class="Navbar-link">
+            <h3>Sign Up</h3>
+          </div>
+          <div class="Navbar-link">
+            <h3>Log In</h3>
+          </div>
+        </div>
       </div>
     );
   }
