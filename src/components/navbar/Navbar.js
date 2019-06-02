@@ -6,7 +6,26 @@ class Navbar extends Component {
   render() {
     return (
       <div className="container">
-        <div className="Navbar" />
+        {/* Navbar */}
+        <div className="Navbar">
+          {/* Logo */}
+          <NavLink className="Navbar__Logo" to="/">
+            Motus
+          </NavLink>
+
+          {/* Nav Links pushed right */}
+          <div className="Navbar__Links-right">
+            {/* Sign Up */}
+            <NavLink className="Navbar__Link" to="/signup">
+              Sign Up
+            </NavLink>
+
+            {/* Log In */}
+            <NavLink className="Navbar__Link" to="/login">
+              Log In
+            </NavLink>
+          </div>
+        </div>
       </div>
     );
   }
