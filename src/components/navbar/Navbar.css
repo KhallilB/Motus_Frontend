@@ -9,11 +9,18 @@
 
  */
 
+ /* Container */
+ .container {
+    width: 100%;
+ }
+
  /* Navbar */
 .Navbar {
     background: rgb(75, 193, 197);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 /* Logo */
@@ -38,6 +45,7 @@ ul {
 
 /* Navbar Links */
 .Navbar__Link {
+    font-family: 'Mandali', sans-serif;
     display: flex;
     text-align: center;
     padding: 1em;
