@@ -1,30 +1,32 @@
 import React, { Component } from 'react';
 import '../navbar/Navbar.css';
 
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 class Navbar extends Component {
   render() {
     return (
       <div className="container">
-        {/* Navbar */}
         <div className="Navbar">
           {/* Logo */}
           <NavLink className="Navbar__Logo" to="/">
             Motus
           </NavLink>
 
-          {/* Nav Links pushed right */}
-          <div className="Navbar__Links-right">
+          {/* List of Nav Links */}
+          <ul className="Navbar__Items">
             {/* Sign Up */}
-            <NavLink className="Navbar__Link" to="/signup">
-              Sign Up
-            </NavLink>
-
+            <li>
+              <NavLink className="Navbar__Link" to="/signup">
+                Sign Up
+              </NavLink>
+            </li>
             {/* Log In */}
-            <NavLink className="Navbar__Link" to="/login">
-              Log In
-            </NavLink>
-          </div>
+            <li>
+              <NavLink className="Navbar__Link" to="/login">
+                Log In
+              </NavLink>
+            </li>
+          </ul>
         </div>
       </div>
     );

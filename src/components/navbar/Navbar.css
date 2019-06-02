@@ -12,25 +12,40 @@
  /* Navbar */
 .Navbar {
     background: rgb(75, 193, 197);
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Logo */
 .Navbar__Logo {
-    width: 10em;
+    width: 5em;
     font-family: 'Ranga', cursive;
     font-size: 48px;
     text-align: center;
-    padding: 2em;
+    padding: 5px;
     color: white;
     text-decoration: none;
 }
 
+/* Navbar Items */
+ul {
+    list-style: none;
+}
+
+.Navbar__Items {
+    display: flex;
+}
+
 /* Navbar Links */
-.Navbar .Navbar__Link {
-    display: block;
+.Navbar__Link {
+    display: flex;
     text-align: center;
     padding: 1em;
     text-decoration: none;
     color: white;
+}
+
+.Navbar__Link:hover {
+    color: rgb(233, 231, 231);
 }
 
