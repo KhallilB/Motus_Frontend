@@ -12,6 +12,7 @@
  /* Container */
  .container {
     width: 100%;
+    margin: 0;
  }
 
  /* Navbar */
@@ -20,16 +21,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 /* Logo */
 .Navbar__Logo {
-    width: 5em;
+    width: 1.5em;
     font-family: 'Ranga', cursive;
     font-size: 48px;
     text-align: center;
-    padding: 5px;
+    padding: 20px;
     color: white;
     text-decoration: none;
 }
